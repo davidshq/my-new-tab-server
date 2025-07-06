@@ -2,6 +2,18 @@
 
 A simple Cloudflare Workers backend that handles OAuth 2.0 authentication for Google Keep API, allowing Chrome extensions to securely access Google Keep without exposing secrets.
 
+## WARNING: Vibe Coded
+I used Cursor to vibe code this - aka, it's almost entirely AI generated, code quality is low.
+
+## WARNING: Google Keep Limitations
+I wanted to integrate with Google Keep BUT:
+1. Google Keep's API doesn't support GIS, so you have to use the old OAuth flow (thus this repo, to keep the secrets out of the Chrome extension)
+2. Google Keep's API is limited to Google Workspace accounts only (meaning the user base would be highly limited as no gmail accounts would be able to use the functionality).
+
+For these reasons I'm abandoning this codebase at the moment because it's entire purpose was to handle the Google Keep secrets.
+
+There are some ways to work around this, but they all seem unreliable and likely to incur Google's wrath. Oh well.
+
 ## Features
 
 - OAuth 2.0 flow for Google Keep API
