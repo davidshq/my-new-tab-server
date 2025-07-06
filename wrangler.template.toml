@@ -3,7 +3,7 @@ main = "src/index.js"
 compatibility_date = "2024-01-01"
 
 [env.production]
-name = "my-new-tab-server-prod"
+name = "my-new-tab-server-production"
 
 [env.staging]
 name = "my-new-tab-server-staging" 
